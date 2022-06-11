@@ -13,8 +13,11 @@ is set as the default whereas for the maximum depth is by default set to 4.
 
 ## Requirements
 Kotlin compiler installed on your machine [preferable 1.4]
+
 Java sdk [preferably 8+]
+
 Powershell/Commdand line
+
 
 ## Additional Notes
 Currently the script is tested on Windows 10, so it may or may not on Unix System.
