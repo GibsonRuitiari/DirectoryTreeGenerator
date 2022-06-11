@@ -15,7 +15,7 @@ import java.io.File
 val path: String =args.getOrElse(0){System.getProperty("user.dir")}  
 val dir: File =File(path)
 
-val maxDepth:Int =args.getOrElse(1){4}.toString().toInt() // args.getOrElse(1){4} as Int
+val maxDepth:Int =args.getOrElse(1){4}.toString().toInt() 
 val levelOffset = dir.toString().count { it==File.separatorChar} -1 // do not count the root
 
 suspend fun generateDirectoriesTree(file:File, maxDepth:Int, levelOffset:Int) = withContext(Dispatchers.IO) {
