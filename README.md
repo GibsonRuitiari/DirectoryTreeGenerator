@@ -2,8 +2,7 @@
 This is a kotlin script that generates the directory tree of a given path showcasing the directory structure; similar to window's Tree command.
 
 ## Purpose
-This is my attempt at kotlin-scripting, and so far so good.
-The scripts are meant to be minimmal hence tests are not included
+This is my attempt to show how to harness the power of kotlin-scripting, regardless of the operating system in use.
 
 ## Usage
 Download/Clone the project on your machine, in your terminal (Powershell/CMD) navigate to the diretory containing the scripts.
